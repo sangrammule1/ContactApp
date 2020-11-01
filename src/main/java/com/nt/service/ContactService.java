@@ -15,5 +15,7 @@ public interface ContactService {
 	public String validateEmail(String email);
 	
 	public boolean deleteContactById(Integer id);
+	
+	public boolean deleteAllContacts();
 
 }

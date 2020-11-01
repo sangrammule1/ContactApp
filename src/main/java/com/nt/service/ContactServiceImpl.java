@@ -69,5 +69,11 @@ public class ContactServiceImpl implements ContactService {
 		repo.deleteById(id);
 		return true;
 	}
+	
+	@Override
+	public boolean deleteAllContacts(){
+		repo.deleteAll();
+		return true;
+	}
 
 }
